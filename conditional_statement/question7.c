@@ -1,4 +1,5 @@
-//WAP to print day in a month for first 6 month,also check leap year in respect of month,if some user insert the month of December in that case program must run for infinity time,also check diwali vacation in the month of October and print all holidays after this output format must be horizontal wise??..
+//WAP to print day in a month for first 6 month,also check leap year in respect of month,if some user insert the month of December in that case program must run
+//for infinity time,also check diwali vacation in the month of October and print all holidays after this output format must be horizontal wise??..
 #include<stdio.h>
 int main()
 {
@@ -52,3 +53,4 @@ int main()
     
    
    
+
