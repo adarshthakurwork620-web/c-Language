@@ -1,24 +1,20 @@
-//Find the largest number among the three numbers.
+// Write a program to print even numbers between 1 and 50 using a for loop.
 
-
-#include <stdio.h>
-int main()
-{
-     int c , b , a ;
-     printf("enter a ,b and c");
-     scanf("%d%d%d",&a,&b,&c);
-     if ((a>=b)&&(a>=c))
-     {
-        printf("A is largest number:%d",a);
-     }
-     else if (b>=c)
-     {
-       printf("B is largest number:%d",b);
-     }
-     else
-     {
-       printf("C is largest number:%d",c);
-     }
-    return 0; 
-       
+#include<stdio.h>
+int main(){
+    int i=1,num;
+    printf("Enter number:");
+    scanf("%d",&num);
+    for ( ; i <= num;)
+    {
+        if (i%2==0)
+        {
+            printf("%d\n",i);
+        }
+        
+    }
+      
+    
+    
+    
 }

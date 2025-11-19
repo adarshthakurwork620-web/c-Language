@@ -1,29 +1,15 @@
-//Check whether a character is a vowel or consonant.
-
+// Write a program to print a multiplication table of any number using a for loop.
 #include<stdio.h>
 int main(){
-    char character;
-    printf("Enter a character:");
-    scanf("%s",&character);
-
-    switch (character)
+    int i ,num,multiplication=0 ,sum=0;
+    printf("Enter table of:");
+    scanf("%d",&num);
+    for ( i = 1; i <= 10; i++)
     {
-    case 'a':
-       printf("vowel");
-        break;
-    case 'e':
-       printf("vowel");
-        break;
-    case 'i':
-       printf("vowel");
-        break;
-    case 'o':
-       printf("vowel");
-        break;
-    case 'u':
-       printf("vowel");
-        break;
-    default:
-        printf("consonant");
+       multiplication=num*i;
+      printf("%d*%d=%d\n",num,i,multiplication);
+      sum=sum+multiplication;
     }
+     printf("sum:%d",sum);
+    
 }

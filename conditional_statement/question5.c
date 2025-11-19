@@ -1,17 +1,13 @@
-//Write a program to check whether a number is multiple of both 3 and 7.
+// Write a program to find the factorial of a number using a for loop.
 #include<stdio.h>
 int main(){
-    int number;
-    printf("Enter number:");
-    scanf("%d",&number);
-    if ((number%3==0)&&(number%7==0))
-    {
-        printf("A number is multiple of both 3 and 7");
-    }
-    else
-    {
-        printf("A number is not multiple of both 3 and 7");
-    }
-        return 0;
-    
+int i,num,fact=1;
+printf("Enter number to find factorial:");
+scanf("%d",&num);
+for ( i = 1; i <= num; i++)
+{
+    fact=i*fact;
+   
+}
+printf("the factorial:%d",fact);
 }
